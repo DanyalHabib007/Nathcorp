@@ -6,5 +6,7 @@
 #Cache folders
 /__pycache__
 
-SApp.py
-
+/static
+/templates
+main.py
+app.py

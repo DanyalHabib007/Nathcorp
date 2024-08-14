@@ -1,5 +1,4 @@
 crewai==0.51.1
-Flask==3.0.3
 langchain==0.2.13
 langchain_groq==0.1.9
 python-dotenv==1.0.1

@@ -5,7 +5,7 @@
 
 **Trip Planner Crew** is an intelligent travel planning application designed to assist users in creating detailed travel itineraries. The app leverages a combination of AI agents to provide recommendations for city selection, generate in-depth city guides, and create comprehensive 7-day travel itineraries based on user preferences.
 
-The application is powered by advanced AI models and tools, utilizing the Groq API with the LLaMA3 model to perform various tasks including searching the internet, calculating budgets, and gathering information.
+The application is powered by advanced AI models and tools, utilizing the Groq API with the LLaMA3 model and SERPER API to perform various tasks including searching the internet, calculating budgets, and gathering information.
 
 ## Features
 
@@ -19,6 +19,7 @@ The application is powered by advanced AI models and tools, utilizing the Groq A
 - **Flask** - Web framework
 - **CrewAI** - AI-powered task automation
 - **Groq API** - AI model for intelligent decision-making
+- - **SERPER API** - For getting information from Internet
 - **HTML/CSS** - Frontend interface
 
 ## Installation
@@ -46,10 +47,11 @@ pip install -r requirements.txt
 
 ### Set Up Environment Variables
 
-Create a `.env` file in the root directory and add your Groq API key:
+Create a `.env` file in the root directory and add your Groq API and Serper API key:
 
 ```bash
 GROQ_API=your_groq_api_key
+SERPER_API=your_serper_api_key
 ```
 
 ### Run the Application

@@ -19,7 +19,7 @@ The application is powered by advanced AI models and tools, utilizing the Groq A
 - **Flask** - Web framework
 - **CrewAI** - AI-powered task automation
 - **Groq API** - AI model for intelligent decision-making
-- - **SERPER API** - For getting information from Internet
+- **SERPER API** - For getting information from Internet
 - **HTML/CSS** - Frontend interface
 
 ## Installation
